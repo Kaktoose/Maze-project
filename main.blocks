@@ -1,0 +1,49 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="IuGZ)f335K?o5/G,k!Wj">maze</variable></variables><block type="pxt-on-start" id="0NgIAGs%H6s(k1HC~8^x" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="P)_1:inogN2;wMDS{:^{"><field name="VAR" id="IuGZ)f335K?o5/G,k!Wj">maze</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="E`pkReDBeS8*,=:D-KBZ"><value name="min"><shadow type="math_number" id="=|8(k^L$vdlY@m`LzC3f"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="cR~|K2q343,U^[_bsFLW"><field name="NUM">10</field></shadow></value></block></value><next><block type="controls_if" id="WiI/veyVCUrV@..Xn](r"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="v83HB(Z(Ap0S[.M^N:j%"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id=";J:Kmj;3^VO#(..sg+fo"><field name="VAR" id="IuGZ)f335K?o5/G,k!Wj">maze</field></block></value><value name="B"><shadow type="math_number" id="nTp`aG;XQX+*WawTgacd"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="bB;JW|9]!@PvQZ|i]AGn"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="mf%El7J._~}E0pF~o,s:"><field name="LEDS">`
+        . . . . . 
+        . # . . . 
+        # . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="u|K7fhP`BIm?KMIHOw?~"><field name="LEDS">`
+        . . . . . 
+        . # # . . 
+        # . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="tI2`Ae2.)@R5IMREq)yl"><field name="LEDS">`
+        . . . . . 
+        . # # . . 
+        # . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="wV/%G|@zt#KF7TR-chV?"><field name="LEDS">`
+        . . . . . 
+        . # # . . 
+        # . # # . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="0|ZVsi4c77T3v+jXx5wd"><field name="LEDS">`
+        . . . . . 
+        . # # . . 
+        # . # # . 
+        . . . # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="r:~]uAQqCJHWcQdy=wTC"><field name="LEDS">`
+        . . . . . 
+        . # # . . 
+        # . # # . 
+        . . . # # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id=".D*P$MxyJn)-D#+l0Gh*"><field name="LEDS">`
+        . . . . . 
+        . # # . . 
+        # . # # # 
+        . . . # # 
+        . . . . .
+        `</field><next><block type="function_call" id="1BJbhkWmKmdRfW1CIe9["><mutation name="mazeDone" functionid="SKwFv+(S/o{CX`egBe*E"/></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></next></block></statement></block><block type="device_forever" id="gR/.aF0,/d|9KKJ_Y~od" x="315" y="175"/><block type="function_definition" id="sJnfXGJFy.CtK}(AO1.]" x="232" y="1512"><mutation name="mazeDone" functionid="SKwFv+(S/o{CX`egBe*E"/><field name="function_name">mazeDone</field></block></xml>
