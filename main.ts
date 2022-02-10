@@ -10,6 +10,7 @@ if (maze == 1) {
         . . . . .
         . . . . .
         `)
+    basic.pause(randint(3, 300))
     basic.showLeds(`
         . . . . .
         . # . . .
@@ -24,6 +25,7 @@ if (maze == 1) {
         . . . . .
         . . . . .
         `)
+    basic.pause(randint(3, 300))
     basic.showLeds(`
         . . . . .
         . # # . .
@@ -31,6 +33,7 @@ if (maze == 1) {
         . . . . .
         . . . . .
         `)
+    basic.pause(randint(3, 300))
     basic.showLeds(`
         . . . . .
         . # # . .
@@ -38,6 +41,7 @@ if (maze == 1) {
         . . . . .
         . . . . .
         `)
+    basic.pause(randint(3, 300))
     basic.showLeds(`
         . . . . .
         . # # . .
@@ -45,6 +49,7 @@ if (maze == 1) {
         . . . # .
         . . . . .
         `)
+    basic.pause(randint(3, 300))
     basic.showLeds(`
         . . . . .
         . # # . .
@@ -52,6 +57,7 @@ if (maze == 1) {
         . . . # #
         . . . . .
         `)
+    basic.pause(randint(3, 300))
     basic.showLeds(`
         . . . . .
         . # # . .
